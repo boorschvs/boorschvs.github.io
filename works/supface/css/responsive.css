@@ -1,0 +1,161 @@
+@media screen and (max-width: 1440px){
+	.container{
+		width: 90%;
+	}
+	#footer .header__btn a,
+	#header .header__btn a{
+		width: 300px;
+		float: none;
+
+	}
+	#header .header__btn,
+	#footer .header__btn{
+		width: 100%;
+		text-align: center;
+	}
+	#header .header__btn a p,
+	#header .header__btn a h2,
+	#footer .header__btn a p,
+	#footer .header__btn a h2{
+		text-align: left;
+	}
+	.game__img{
+		width: 50%
+	}
+	.game__img img{
+		width: 100%;
+	}
+	.playrs .name__block{
+		margin-top: 50px;
+	}
+	.connection,
+	.collaboration{
+		padding: 50px 0
+	}
+	.growth{
+		padding: 65px 0
+	}
+	#social__block .social__block__heading{
+		font-size: 55px;
+		margin-top: 50px;
+	}
+	#footer .footer__app__content .footer__app__heading {
+    	font-size: 74px;
+	}
+}
+@media screen and (max-width: 1024px){
+	#social__block .social__block__heading,
+	#social__block .social__block__paragraph{
+		margin-left: 50px;
+	}
+	#social__block .active .social__block__paragraph,
+	#social__block .work .social__block__paragraph,
+	#social__block .active .social__block__heading,
+	#social__block .work .social__block__heading{
+		margin-left: 130px;
+	}
+	#social__block .social__block__paragraph:after{
+		display: none;
+	}
+}
+@media screen and (max-width: 768px){
+	.game__img{
+		width: 35%
+	}
+	#social__block .active__img,
+	#social__block .contact__img,
+	#social__block .work__img,
+	#social__block .active__content{
+		width: 100%;
+	}
+	#social__block .social__block__heading {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	#social__block .active .social__block__paragraph, 
+	#social__block .work .social__block__paragraph, 
+	#social__block .active .social__block__heading,
+	#social__block .contact .social__block__paragraph, 
+	#social__block .contact .social__block__heading,
+	#social__block .work .social__block__heading{
+		margin-left: 20px;
+	}
+	#social__block .active .active__span, 
+	#social__block .contact .active__span, 
+	#social__block .work .active__span{
+		display: none;
+	}
+	#social__block .social__block__heading, 
+	#social__block .social__block__paragraph{
+		margin-bottom: 20px;
+	}
+	#footer .footer__list .footer__item{
+		width: 100%;
+	}
+	#footer .footer__list .footer__item:first-child,
+	#footer .footer__list .footer__item:last-child{
+		display: none;
+	}
+	#footer .footer__app__content{
+		padding: 0px;
+	}
+}
+@media screen and (max-width: 700px){
+	#header .header__top__content{
+		display: none;
+	}
+	#header .header__content .header__content__item .header__list__bottom{
+		text-align: center;
+	}
+	#header .header__content .header__content__item .header__list__bottom .header__item__bottom{
+		margin: 20px 10px;
+	}
+	#header .header__content .header__content__item:last-child .header__heading{
+		text-align: center;
+		padding-right: 0px;
+	}
+	#header .header__content .header__content__item .header__heading{
+		font-size: 40px;
+	}
+	#footer .header__btn a, #header .header__btn a{
+		margin: 10px 0;
+	}
+	#game .name__block{
+		font-size: 70px;
+	}
+	#footer .footer__app__content .footer__app__paragraph{
+		font-size: 25px;
+	}
+	#footer .footer__app__content .footer__app__heading{
+		font-size: 55px;
+	}
+	#header .header__top__logo{
+		float: none;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 490px){
+	#header .header__content .header__content__item .header__list__bottom .header__item__bottom{
+		margin: 5px 5px;
+	}
+	#header .header__content .header__content__item:first-child .header__heading{
+		text-align: center;
+	}
+	#header .header__content .header__content__item:first-child::after{
+		display: none;
+	}
+}
+@media screen and (max-width: 320px){
+	.header__top__logo{
+		float: none;
+	}
+	#header .header__top__content{
+		display: none;
+	}
+	#footer .footer__app__content .footer__app__heading{
+		font-size: 	40px;
+	}
+	#header .header__content .header__content__item .header__heading{
+		font-size: 39px;
+	}
+}
