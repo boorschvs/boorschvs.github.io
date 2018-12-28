@@ -1,0 +1,73 @@
+@media screen and (max-width: 1440px){
+	.arcticmodal-container_i{
+		width: 70%;
+	}
+}
+@media screen and (max-width: 1024px){
+	.page__content__list .page__content__item:first-child, 
+	.page__content__list .page__content__item:last-child {
+		float: none;
+		width: 100%;
+	}
+	.page__content__name{
+		font-size: 40px;
+	    text-align: center;
+	    line-height: 50px;
+	    letter-spacing: 5px;
+	    padding: 50px 0px 0px;
+	}
+	.page__content__link:before,
+	.page__skills:after,
+	.page__content__work:before{
+		display: none;
+	}
+	.page__content__link{
+		border-bottom: 3px solid rgba(253, 209, 134, 0.4);
+    	border-top: 3px solid rgba(253, 209, 134, 0.4);
+	}
+	.page__content__work{
+		margin-top: 15px;
+		border-top: 3px solid rgba(253, 209, 134, 0.4);
+	}
+	.page__content__heading{
+		padding-top: 15px;
+	}
+	.page__skills{
+		padding: 0 20px;
+	}
+	.page__btn, .property__btn{
+		font-size: 22px;
+	}
+	.page__skills__list p{
+		float: none;
+		display: block;
+		text-align: center;
+	}
+	#progressBar,
+	#progressBarCSS, 
+	#progressBarJS,
+	#progressBarjQ,
+	#progressBarBoot,
+	#progressBarSass{
+		margin: 0px;
+		width: 100%;
+	}
+	.slider__page__nofile {
+		font-size: 40px;
+		
+	}
+}
+@media screen and (max-width: 728px){
+	.arcticmodal-container_i{
+		width: 95%;
+		margin-top: 50px;
+	}
+	.page__404{
+		font-size: 50px;
+	}
+}
+@media screen and (max-width: 600px){
+	.slider__page__one{
+		margin: 0 15px;
+	}
+}
